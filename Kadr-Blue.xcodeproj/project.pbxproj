@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2AB2381DB7FE580045DEE9 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AB2371DB7FE580045DEE9 /* FirebaseHelper.swift */; };
+		3F2AB23A1DB80E7D0045DEE9 /* UserInputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AB2391DB80E7D0045DEE9 /* UserInputHelper.swift */; };
+		504979C949CF8559A71ED06B /* libPods-Kadr-BlueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4173031C29A9691EECB778 /* libPods-Kadr-BlueTests.a */; };
+		C3CFFC3F611290CDEBB09A52 /* libPods-Kadr-Blue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93970FE3A28B015113A07C42 /* libPods-Kadr-Blue.a */; };
+		E1277D0A4A71767C6347C4F9 /* libPods-Kadr-BlueUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C27BB41E8BD30204422C33D4 /* libPods-Kadr-BlueUITests.a */; };
+		FA30E6D71DAF30AA0020B29F /* BookingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6D61DAF30AA0020B29F /* BookingsController.swift */; };
+		FA30E6D91DAF30F00020B29F /* PortfolioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6D81DAF30F00020B29F /* PortfolioController.swift */; };
+		FA30E6DB1DAF314D0020B29F /* BookTimeAndPlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6DA1DAF314D0020B29F /* BookTimeAndPlaceController.swift */; };
+		FA30E6DD1DAF315F0020B29F /* BookingUserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6DC1DAF315F0020B29F /* BookingUserDetailsController.swift */; };
+		FA30E6DF1DAF31710020B29F /* ConfirmBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6DE1DAF31710020B29F /* ConfirmBookingController.swift */; };
+		FA30E6E31DAF45460020B29F /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6E21DAF45460020B29F /* UIHelper.swift */; };
+		FA30E6E51DAF4A230020B29F /* BookingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6E41DAF4A230020B29F /* BookingsCell.swift */; };
+		FA30E6E71DAF4A330020B29F /* PortfolioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30E6E61DAF4A330020B29F /* PortfolioCell.swift */; };
+		FAC8BF171DB32B68003EACFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC8BF161DB32B68003EACFF /* GoogleService-Info.plist */; };
+		FACB39D91DAFED1D0012F320 /* starRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB39D81DAFED1D0012F320 /* starRatingView.swift */; };
+		FACB6C081DAE9D8C0048727B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6C071DAE9D8C0048727B /* AppDelegate.swift */; };
+		FACB6C0A1DAE9D8C0048727B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6C091DAE9D8C0048727B /* ViewController.swift */; };
+		FACB6C0D1DAE9D8C0048727B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB6C0B1DAE9D8C0048727B /* Main.storyboard */; };
+		FACB6C0F1DAE9D8C0048727B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACB6C0E1DAE9D8C0048727B /* Assets.xcassets */; };
+		FACB6C121DAE9D8C0048727B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB6C101DAE9D8C0048727B /* LaunchScreen.storyboard */; };
+		FACB6C1D1DAE9D8D0048727B /* Kadr_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6C1C1DAE9D8D0048727B /* Kadr_BlueTests.swift */; };
+		FACB6C281DAE9D8D0048727B /* Kadr_BlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6C271DAE9D8D0048727B /* Kadr_BlueUITests.swift */; };
+		FACB6C371DAE9F710048727B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6C361DAE9F710048727B /* HomeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACB6C191DAE9D8D0048727B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB6BFC1DAE9D8C0048727B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB6C031DAE9D8C0048727B;
+			remoteInfo = "Kadr-Blue";
+		};
+		FACB6C241DAE9D8D0048727B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACB6BFC1DAE9D8C0048727B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACB6C031DAE9D8C0048727B;
+			remoteInfo = "Kadr-Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB0B2CB7C6846C15A1790DF /* Pods-Kadr-Blue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-Blue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-Blue/Pods-Kadr-Blue.debug.xcconfig"; sourceTree = "<group>"; };
+		29F0DECA136EB94974694092 /* Pods-Kadr-BlueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-BlueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-BlueTests/Pods-Kadr-BlueTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F2AB2371DB7FE580045DEE9 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		3F2AB2391DB80E7D0045DEE9 /* UserInputHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInputHelper.swift; sourceTree = "<group>"; };
+		93970FE3A28B015113A07C42 /* libPods-Kadr-Blue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kadr-Blue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		970FE340DBA4899975DF460C /* Pods-Kadr-BlueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-BlueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-BlueUITests/Pods-Kadr-BlueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B37A3AEA4D1C01146402CE04 /* Pods-Kadr-BlueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-BlueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-BlueTests/Pods-Kadr-BlueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4173031C29A9691EECB778 /* libPods-Kadr-BlueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kadr-BlueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27BB41E8BD30204422C33D4 /* libPods-Kadr-BlueUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kadr-BlueUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71E305D7D8EE14CDEC7E1D1 /* Pods-Kadr-Blue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-Blue.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-Blue/Pods-Kadr-Blue.release.xcconfig"; sourceTree = "<group>"; };
+		F116B98F1FCC1F69A777F799 /* Pods-Kadr-BlueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadr-BlueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kadr-BlueUITests/Pods-Kadr-BlueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA30E6D61DAF30AA0020B29F /* BookingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsController.swift; sourceTree = "<group>"; };
+		FA30E6D81DAF30F00020B29F /* PortfolioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioController.swift; sourceTree = "<group>"; };
+		FA30E6DA1DAF314D0020B29F /* BookTimeAndPlaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTimeAndPlaceController.swift; sourceTree = "<group>"; };
+		FA30E6DC1DAF315F0020B29F /* BookingUserDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingUserDetailsController.swift; sourceTree = "<group>"; };
+		FA30E6DE1DAF31710020B29F /* ConfirmBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmBookingController.swift; sourceTree = "<group>"; };
+		FA30E6E21DAF45460020B29F /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		FA30E6E41DAF4A230020B29F /* BookingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsCell.swift; sourceTree = "<group>"; };
+		FA30E6E61DAF4A330020B29F /* PortfolioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCell.swift; sourceTree = "<group>"; };
+		FAC8BF161DB32B68003EACFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FACB39D81DAFED1D0012F320 /* starRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = starRatingView.swift; sourceTree = "<group>"; };
+		FACB6C041DAE9D8C0048727B /* Kadr-Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadr-Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB6C071DAE9D8C0048727B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACB6C091DAE9D8C0048727B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACB6C0C1DAE9D8C0048727B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACB6C0E1DAE9D8C0048727B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACB6C111DAE9D8C0048727B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACB6C131DAE9D8C0048727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB6C181DAE9D8C0048727B /* Kadr-BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadr-BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB6C1C1DAE9D8D0048727B /* Kadr_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadr_BlueTests.swift; sourceTree = "<group>"; };
+		FACB6C1E1DAE9D8D0048727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB6C231DAE9D8D0048727B /* Kadr-BlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadr-BlueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACB6C271DAE9D8D0048727B /* Kadr_BlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadr_BlueUITests.swift; sourceTree = "<group>"; };
+		FACB6C291DAE9D8D0048727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACB6C361DAE9F710048727B /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACB6C011DAE9D8C0048727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CFFC3F611290CDEBB09A52 /* libPods-Kadr-Blue.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C151DAE9D8C0048727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504979C949CF8559A71ED06B /* libPods-Kadr-BlueTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C201DAE9D8D0048727B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1277D0A4A71767C6347C4F9 /* libPods-Kadr-BlueUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8C6E9DC8ECC72968A16788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB0B2CB7C6846C15A1790DF /* Pods-Kadr-Blue.debug.xcconfig */,
+				D71E305D7D8EE14CDEC7E1D1 /* Pods-Kadr-Blue.release.xcconfig */,
+				B37A3AEA4D1C01146402CE04 /* Pods-Kadr-BlueTests.debug.xcconfig */,
+				29F0DECA136EB94974694092 /* Pods-Kadr-BlueTests.release.xcconfig */,
+				970FE340DBA4899975DF460C /* Pods-Kadr-BlueUITests.debug.xcconfig */,
+				F116B98F1FCC1F69A777F799 /* Pods-Kadr-BlueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA30E6E01DAF45390020B29F /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				FA30E6E41DAF4A230020B29F /* BookingsCell.swift */,
+				FA30E6E61DAF4A330020B29F /* PortfolioCell.swift */,
+				FACB39D81DAFED1D0012F320 /* starRatingView.swift */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		FA30E6E11DAF45390020B29F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA30E6E21DAF45460020B29F /* UIHelper.swift */,
+				3F2AB2371DB7FE580045DEE9 /* FirebaseHelper.swift */,
+				3F2AB2391DB80E7D0045DEE9 /* UserInputHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FACB6BFB1DAE9D8C0048727B = {
+			isa = PBXGroup;
+			children = (
+				FACB6C061DAE9D8C0048727B /* Kadr-Blue */,
+				FACB6C1B1DAE9D8D0048727B /* Kadr-BlueTests */,
+				FACB6C261DAE9D8D0048727B /* Kadr-BlueUITests */,
+				FACB6C051DAE9D8C0048727B /* Products */,
+				3E8C6E9DC8ECC72968A16788 /* Pods */,
+				FFCA6046B6DD9EBD4C47830A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FACB6C051DAE9D8C0048727B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACB6C041DAE9D8C0048727B /* Kadr-Blue.app */,
+				FACB6C181DAE9D8C0048727B /* Kadr-BlueTests.xctest */,
+				FACB6C231DAE9D8D0048727B /* Kadr-BlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACB6C061DAE9D8C0048727B /* Kadr-Blue */ = {
+			isa = PBXGroup;
+			children = (
+				FA30E6E01DAF45390020B29F /* CustomElements */,
+				FA30E6E11DAF45390020B29F /* Helpers */,
+				FACB6C351DAE9F620048727B /* ViewContollers */,
+				FACB6C071DAE9D8C0048727B /* AppDelegate.swift */,
+				FACB6C091DAE9D8C0048727B /* ViewController.swift */,
+				FACB6C0B1DAE9D8C0048727B /* Main.storyboard */,
+				FACB6C0E1DAE9D8C0048727B /* Assets.xcassets */,
+				FACB6C101DAE9D8C0048727B /* LaunchScreen.storyboard */,
+				FACB6C131DAE9D8C0048727B /* Info.plist */,
+				FAC8BF161DB32B68003EACFF /* GoogleService-Info.plist */,
+			);
+			path = "Kadr-Blue";
+			sourceTree = "<group>";
+		};
+		FACB6C1B1DAE9D8D0048727B /* Kadr-BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB6C1C1DAE9D8D0048727B /* Kadr_BlueTests.swift */,
+				FACB6C1E1DAE9D8D0048727B /* Info.plist */,
+			);
+			path = "Kadr-BlueTests";
+			sourceTree = "<group>";
+		};
+		FACB6C261DAE9D8D0048727B /* Kadr-BlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACB6C271DAE9D8D0048727B /* Kadr_BlueUITests.swift */,
+				FACB6C291DAE9D8D0048727B /* Info.plist */,
+			);
+			path = "Kadr-BlueUITests";
+			sourceTree = "<group>";
+		};
+		FACB6C351DAE9F620048727B /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				FACB6C361DAE9F710048727B /* HomeController.swift */,
+				FA30E6D61DAF30AA0020B29F /* BookingsController.swift */,
+				FA30E6D81DAF30F00020B29F /* PortfolioController.swift */,
+				FA30E6DA1DAF314D0020B29F /* BookTimeAndPlaceController.swift */,
+				FA30E6DC1DAF315F0020B29F /* BookingUserDetailsController.swift */,
+				FA30E6DE1DAF31710020B29F /* ConfirmBookingController.swift */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		FFCA6046B6DD9EBD4C47830A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93970FE3A28B015113A07C42 /* libPods-Kadr-Blue.a */,
+				BE4173031C29A9691EECB778 /* libPods-Kadr-BlueTests.a */,
+				C27BB41E8BD30204422C33D4 /* libPods-Kadr-BlueUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACB6C031DAE9D8C0048727B /* Kadr-Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB6C2C1DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-Blue" */;
+			buildPhases = (
+				907535944106917385684D3F /* [CP] Check Pods Manifest.lock */,
+				FACB6C001DAE9D8C0048727B /* Sources */,
+				FACB6C011DAE9D8C0048727B /* Frameworks */,
+				FACB6C021DAE9D8C0048727B /* Resources */,
+				C6AFB9BDF0EF8BFFD4E2C576 /* [CP] Embed Pods Frameworks */,
+				58E0457D41E328337ACDA673 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kadr-Blue";
+			productName = "Kadr-Blue";
+			productReference = FACB6C041DAE9D8C0048727B /* Kadr-Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACB6C171DAE9D8C0048727B /* Kadr-BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB6C2F1DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-BlueTests" */;
+			buildPhases = (
+				8B98A612EF4C83B483505738 /* [CP] Check Pods Manifest.lock */,
+				FACB6C141DAE9D8C0048727B /* Sources */,
+				FACB6C151DAE9D8C0048727B /* Frameworks */,
+				FACB6C161DAE9D8C0048727B /* Resources */,
+				DAA5B21B87C2EDEAE3AF7309 /* [CP] Embed Pods Frameworks */,
+				E2FD7E05E4BFDE83FCCAD62D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB6C1A1DAE9D8D0048727B /* PBXTargetDependency */,
+			);
+			name = "Kadr-BlueTests";
+			productName = "Kadr-BlueTests";
+			productReference = FACB6C181DAE9D8C0048727B /* Kadr-BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACB6C221DAE9D8D0048727B /* Kadr-BlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACB6C321DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-BlueUITests" */;
+			buildPhases = (
+				3373A6F7007B17D601C2968B /* [CP] Check Pods Manifest.lock */,
+				FACB6C1F1DAE9D8D0048727B /* Sources */,
+				FACB6C201DAE9D8D0048727B /* Frameworks */,
+				FACB6C211DAE9D8D0048727B /* Resources */,
+				9948C43FA9CADCECAF113EB6 /* [CP] Embed Pods Frameworks */,
+				ED9E63EF748BDC76624AA942 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACB6C251DAE9D8D0048727B /* PBXTargetDependency */,
+			);
+			name = "Kadr-BlueUITests";
+			productName = "Kadr-BlueUITests";
+			productReference = FACB6C231DAE9D8D0048727B /* Kadr-BlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACB6BFC1DAE9D8C0048727B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Kadr;
+				TargetAttributes = {
+					FACB6C031DAE9D8C0048727B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DJE44ZPPJW;
+						ProvisioningStyle = Automatic;
+					};
+					FACB6C171DAE9D8C0048727B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E2G7ZKJKQ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACB6C031DAE9D8C0048727B;
+					};
+					FACB6C221DAE9D8D0048727B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E2G7ZKJKQ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACB6C031DAE9D8C0048727B;
+					};
+				};
+			};
+			buildConfigurationList = FACB6BFF1DAE9D8C0048727B /* Build configuration list for PBXProject "Kadr-Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACB6BFB1DAE9D8C0048727B;
+			productRefGroup = FACB6C051DAE9D8C0048727B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACB6C031DAE9D8C0048727B /* Kadr-Blue */,
+				FACB6C171DAE9D8C0048727B /* Kadr-BlueTests */,
+				FACB6C221DAE9D8D0048727B /* Kadr-BlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACB6C021DAE9D8C0048727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB6C121DAE9D8C0048727B /* LaunchScreen.storyboard in Resources */,
+				FACB6C0F1DAE9D8C0048727B /* Assets.xcassets in Resources */,
+				FACB6C0D1DAE9D8C0048727B /* Main.storyboard in Resources */,
+				FAC8BF171DB32B68003EACFF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C161DAE9D8C0048727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C211DAE9D8D0048727B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3373A6F7007B17D601C2968B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58E0457D41E328337ACDA673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-Blue/Pods-Kadr-Blue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B98A612EF4C83B483505738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		907535944106917385684D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9948C43FA9CADCECAF113EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-BlueUITests/Pods-Kadr-BlueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AFB9BDF0EF8BFFD4E2C576 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-Blue/Pods-Kadr-Blue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA5B21B87C2EDEAE3AF7309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-BlueTests/Pods-Kadr-BlueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FD7E05E4BFDE83FCCAD62D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-BlueTests/Pods-Kadr-BlueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9E63EF748BDC76624AA942 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kadr-BlueUITests/Pods-Kadr-BlueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACB6C001DAE9D8C0048727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB6C0A1DAE9D8C0048727B /* ViewController.swift in Sources */,
+				FACB39D91DAFED1D0012F320 /* starRatingView.swift in Sources */,
+				FA30E6DD1DAF315F0020B29F /* BookingUserDetailsController.swift in Sources */,
+				FA30E6D91DAF30F00020B29F /* PortfolioController.swift in Sources */,
+				FA30E6E51DAF4A230020B29F /* BookingsCell.swift in Sources */,
+				FACB6C081DAE9D8C0048727B /* AppDelegate.swift in Sources */,
+				FA30E6DF1DAF31710020B29F /* ConfirmBookingController.swift in Sources */,
+				FA30E6E31DAF45460020B29F /* UIHelper.swift in Sources */,
+				FA30E6E71DAF4A330020B29F /* PortfolioCell.swift in Sources */,
+				3F2AB2381DB7FE580045DEE9 /* FirebaseHelper.swift in Sources */,
+				FACB6C371DAE9F710048727B /* HomeController.swift in Sources */,
+				3F2AB23A1DB80E7D0045DEE9 /* UserInputHelper.swift in Sources */,
+				FA30E6DB1DAF314D0020B29F /* BookTimeAndPlaceController.swift in Sources */,
+				FA30E6D71DAF30AA0020B29F /* BookingsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C141DAE9D8C0048727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB6C1D1DAE9D8D0048727B /* Kadr_BlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACB6C1F1DAE9D8D0048727B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB6C281DAE9D8D0048727B /* Kadr_BlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACB6C1A1DAE9D8D0048727B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB6C031DAE9D8C0048727B /* Kadr-Blue */;
+			targetProxy = FACB6C191DAE9D8D0048727B /* PBXContainerItemProxy */;
+		};
+		FACB6C251DAE9D8D0048727B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACB6C031DAE9D8C0048727B /* Kadr-Blue */;
+			targetProxy = FACB6C241DAE9D8D0048727B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACB6C0B1DAE9D8C0048727B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB6C0C1DAE9D8C0048727B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACB6C101DAE9D8C0048727B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACB6C111DAE9D8C0048727B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACB6C2A1DAE9D8D0048727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACB6C2B1DAE9D8D0048727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACB6C2D1DAE9D8D0048727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB0B2CB7C6846C15A1790DF /* Pods-Kadr-Blue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJE44ZPPJW;
+				INFOPLIST_FILE = "Kadr-Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FACB6C2E1DAE9D8D0048727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71E305D7D8EE14CDEC7E1D1 /* Pods-Kadr-Blue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJE44ZPPJW;
+				INFOPLIST_FILE = "Kadr-Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FACB6C301DAE9D8D0048727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37A3AEA4D1C01146402CE04 /* Pods-Kadr-BlueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2G7ZKJKQ5;
+				INFOPLIST_FILE = "Kadr-BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadr-Blue.app/Kadr-Blue";
+			};
+			name = Debug;
+		};
+		FACB6C311DAE9D8D0048727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F0DECA136EB94974694092 /* Pods-Kadr-BlueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2G7ZKJKQ5;
+				INFOPLIST_FILE = "Kadr-BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadr-Blue.app/Kadr-Blue";
+			};
+			name = Release;
+		};
+		FACB6C331DAE9D8D0048727B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970FE340DBA4899975DF460C /* Pods-Kadr-BlueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2G7ZKJKQ5;
+				INFOPLIST_FILE = "Kadr-BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kadr-Blue";
+			};
+			name = Debug;
+		};
+		FACB6C341DAE9D8D0048727B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F116B98F1FCC1F69A777F799 /* Pods-Kadr-BlueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E2G7ZKJKQ5;
+				INFOPLIST_FILE = "Kadr-BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kadr.Kadr-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kadr-Blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACB6BFF1DAE9D8C0048727B /* Build configuration list for PBXProject "Kadr-Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB6C2A1DAE9D8D0048727B /* Debug */,
+				FACB6C2B1DAE9D8D0048727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB6C2C1DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB6C2D1DAE9D8D0048727B /* Debug */,
+				FACB6C2E1DAE9D8D0048727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB6C2F1DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB6C301DAE9D8D0048727B /* Debug */,
+				FACB6C311DAE9D8D0048727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACB6C321DAE9D8D0048727B /* Build configuration list for PBXNativeTarget "Kadr-BlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACB6C331DAE9D8D0048727B /* Debug */,
+				FACB6C341DAE9D8D0048727B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACB6BFC1DAE9D8C0048727B /* Project object */;
+}
