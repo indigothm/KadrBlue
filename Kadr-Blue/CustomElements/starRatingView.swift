@@ -23,7 +23,7 @@ class starRatingView: UIView {
     func addStars(starCount: Int){
         //Padding should not be 100 - but the width is screwing up
 //        (100-(5*16.2 + 4*3.8))/2
-        var padding: CGFloat = (100.0 - (CGFloat (starCount) * 16.2 + (CGFloat (starCount) - 1.0) * 3.8))/2.0
+        let padding: CGFloat = (100.0 - (CGFloat (starCount) * 16.2 + (CGFloat (starCount) - 1.0) * 3.8))/2.0
         print(padding)
         for i in 0..<starCount{
             
